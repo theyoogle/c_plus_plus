@@ -1,0 +1,6 @@
+cmake_minimum_required(VERSION 3.13)
+project(clion)
+
+set(CMAKE_CXX_STANDARD 14)
+
+add_executable(clion basic_concepts/01_std_in_out.cpp basic_concepts/02_sizeof.cpp basic_concepts/03_list_initialization.cpp basic_concepts/04_auto_type.cpp basic_concepts/05_type_def.cpp basic_concepts/06_vector.cpp basic_concepts/07_enums.cpp basic_concepts/08_bitwise.cpp basic_concepts/09_for_range.cpp basic_concepts/10_fibonacci_series.cpp basic_concepts/11_array_to_function.cpp basic_concepts/12_pass_by_reference.cpp basic_concepts/13_return_multiple_values.cpp basic_concepts/14_pointers.cpp basic_concepts/15_new_delete.cpp basic_concepts/16_new[]_delete[].cpp basic_concepts/17_const_pointer.cpp basic_concepts/18_pointer_to_function_param.cpp basic_concepts/19_bad_alloc.cpp basic_concepts/20_new_nothrow.cpp basic_concepts/21_reference.cpp basic_concepts/22_const_reference.cpp classes_and_objects/101_variable.cpp classes_and_objects/102_pointer.cpp classes_and_objects/103_constructor.cpp classes_and_objects/104_scope_resolution_operator.cpp classes_and_objects/105_initialization_lists.cpp)

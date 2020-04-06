@@ -5,7 +5,7 @@
 #include <iostream>
 using namespace std;
 
-int main(){
+int main20(){
 
     int* nums = new(nothrow) int[0x1fffffffffff];   // Returns NULL on fail
 
